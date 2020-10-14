@@ -23,7 +23,7 @@ cv2.imshow('erode',erode)#图片显示
 dilate=cv2.dilate(mask,None,iterations=1)
 cv2.imshow('dilate',dilate)#图片显示
 
-
+###
 
 
 cv2.waitKey(0)
